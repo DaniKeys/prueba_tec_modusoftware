@@ -74,13 +74,13 @@ public class PruebaTecnicaApplication {
 		return args -> {
 			
 			
-			ArrayDTO dto = new ArrayDTO();
-			ArrayDTO dtoRta = new ArrayDTO();
-			dto.setId(1);
-			dto.setQ(3);
+			//ArrayDTO dto = new ArrayDTO();
+			//ArrayDTO dtoRta = new ArrayDTO();
+			//dto.setId(1);
+			//dto.setQ(3);
 		
-			dtoRta = this.arrayServ.result(dto);
-			System.out.println("Respuesta= " + dtoRta.getRespuesta());
+			//dtoRta = this.arrayServ.result(dto);
+			//System.out.println("Respuesta= " + dtoRta.getRespuesta());
 			
 		};
 	} 
