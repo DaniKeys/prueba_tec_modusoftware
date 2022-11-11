@@ -20,5 +20,5 @@ modulos, dependiendo del residuo se almacenan en listas independientes. el orden
  
 > en caso de usar **Postman** utilize el verbo HTTP `POST` par su consulta
 
- ###Tecnologias y componentes
+ ### Tecnologias y componentes
  >STS,MySql,Postman,SpringBoot,SpringDataJPA,Junit,lombok
