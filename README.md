@@ -23,5 +23,5 @@ modulos, dependiendo del residuo se almacenan en listas independientes. el orden
  ### Tecnologias y componentes
  >STS,MySql,Postman,SpringBoot,SpringDataJPA,Junit,lombok
  
-#### Documentacion Java: en el
-ubique el folder `doc` y arrastre el archivo `index.html` al navegador
+#### Documentacion Java: 
+Ubique el folder `doc` y arrastre el archivo `index.html` al navegador
