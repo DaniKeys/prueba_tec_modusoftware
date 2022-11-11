@@ -24,7 +24,7 @@ import com.modusoftware.test.util.operationInvalid.ValidRequest;
  * <p>
  * Este Bean que pertenece a la capa de logica, desarrolla la logica para dar el conjunto de valores resultantes 
  * inyectando el Bean  {@link ArrayRepository} para obtener informacin de la Base de Datos
- * implementa {@code @FuncionalInterface} {@link IArrayService} donde esta definido el "SAB"
+ * implementa {@code @Interface} {@link IArrayService} donde esta definido el "SAB"
  * {@code getArrayById()}
  * </p>
  * 
