@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
 import com.modusoftware.test.bussines.IArrayService;
 import com.modusoftware.test.dto.ArrayDTO;
 import com.modusoftware.test.persistent.entity.ArrayEntity;
@@ -58,13 +59,14 @@ public class ArrayController {
 	 * {@inheritDoc}
 	 * */
 
-		@PostMapping(path = "/consulta")
-		public String findArrayById(@RequestBody ArrayDTO dto) {
+		@PostMapping(consumes =  {MediaType.APPLICATION_JSON_VALUE},
+			        	path = "/consulta")
+		public ResponseEntity<String>  findArrayById(@RequestBody ArrayDTO dto) {
 			
 		ArrayDTO dtoResponse = new ArrayDTO();
 		dtoResponse = this.arrayServ.result(dto); 
 		
-		return "Respuesta= " + dtoResponse.getRespuesta();
+		return new  ResponseEntity<String> (dto.getRespuesta(),HttpStatus.OK);
       
 
 
