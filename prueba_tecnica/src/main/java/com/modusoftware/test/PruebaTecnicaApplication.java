@@ -73,14 +73,15 @@ public class PruebaTecnicaApplication {
 	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
 		return args -> {
 			
-			
-			//ArrayDTO dto = new ArrayDTO();
-			//ArrayDTO dtoRta = new ArrayDTO();
-			//dto.setId(1);
-			//dto.setQ(3);
+			/*
+			ArrayDTO dto = new ArrayDTO();
+			ArrayDTO dtoRta = new ArrayDTO();
+			dto.setId(5);
+			dto.setQ(4);
 		
-			//dtoRta = this.arrayServ.result(dto);
-			//System.out.println("Respuesta= " + dtoRta.getRespuesta());
+			dtoRta = this.arrayServ.result(dto);
+			System.out.println("Respuesta= " + dtoRta.getRespuesta());
+			*/
 			
 		};
 	} 

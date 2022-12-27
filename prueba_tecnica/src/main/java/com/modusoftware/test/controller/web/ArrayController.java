@@ -66,7 +66,7 @@ public class ArrayController {
 		ArrayDTO dtoResponse = new ArrayDTO();
 		dtoResponse = this.arrayServ.result(dto); 
 		
-		return new  ResponseEntity<String> (dto.getRespuesta(),HttpStatus.OK);
+		return new  ResponseEntity<String> ("Respuesta= "+ dtoResponse.getRespuesta(),HttpStatus.OK);
       
 
 
