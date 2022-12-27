@@ -24,7 +24,7 @@ import com.modusoftware.test.util.operationInvalid.ValidRequest;
  * <p>
  * Este Bean que pertenece a la capa de logica,
  * inyecta el Bean  {@link ArrayRepository} para obtener informacin de la Base de Datos
- * implementa {@code @Interface} {@link IArrayService} donde esta definido el "SAB"
+ * implementa {@code @Interface} {@link IArrayService} donde esta definido el "SAM"
  * {@code getArrayById()}
  * </p>
  * 
@@ -82,7 +82,6 @@ public class ArrayServiceImpl implements IArrayService {
 		List<Integer> ai = new ArrayList<>();
 		List<Integer> respuesta = new ArrayList<>();
 
-		int i;
 		int pIter = 0;
 
 		while (q > 0) {
